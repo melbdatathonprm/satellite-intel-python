@@ -79,3 +79,6 @@ def get_timeseries_image_paths(tile_x, tile_y, band):
 # Print out an ascii representation of the sugarcane regions
 print_ascii_mask(TILE_X, TILE_Y, "sugarcane-region")
 
+import pandas as pd
+import numpy as np
+
